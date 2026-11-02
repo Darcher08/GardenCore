@@ -1,0 +1,73 @@
+# ==========================================
+# Laravel & PHP
+# ==========================================
+/vendor/
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Archivos de entorno y configuración local
+.env
+.env.backup
+.env.production
+.env.testing
+.phpactor.json
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Caché de herramientas de calidad y testing (PHPUnit, Pest, Pint, PHPStan)
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpstan.cache/
+
+# ==========================================
+# Vue, Vite & Node.js
+# ==========================================
+/node_modules/
+/public/build/
+/public/hot
+/public/storage
+
+# Artefactos de Vite y TypeScript (si usas Vue + TS)
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Logs de gestores de paquetes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Reportes de testing frontend (Vitest / Cypress / Playwright)
+/coverage/
+/cypress/videos/
+/cypress/screenshots/
+/playwright-report/
+/test-results/
+
+# ==========================================
+# IDEs, Editores y Sistema Operativo
+# ==========================================
+/.idea/
+/.vscode/
+/.fleet/
+/.nova/
+/.zed/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema (Linux / macOS / Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
